@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f0f0f0; /* Color gris claro del boceto */
+    border-bottom: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1; /* Ocupa espacio para ayudar al centrado */
+}
+
+.navbar-center {
+    flex: 2;
+    text-align: center;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 2rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
